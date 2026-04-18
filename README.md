@@ -19,7 +19,7 @@ This language pack contains Urdu translations for Flarum (compatible with `1.6.0
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/urdu:dev-master
+composer require "flarum-lang/urdu:@dev"
 ```
 
 Then enable extension in admin panel of your Flarum.
