@@ -1,27 +1,24 @@
 {
 	"name": "flarum-lang/urdu",
+	"description": "Urdu Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Urdu language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/urdu",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"ur-locale",
-		"urdu-locale",
-		"urdu"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/urdu",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/urdu/issues",
+		"forum": "https://discuss.flarum.org/d/40222",
 		"source": "https://github.com/flarum-lang/urdu"
 	},
 	"require": {
 		"flarum/core": "^1.6"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Urdu",
 			"category": "language",
@@ -33,13 +30,8 @@
 		},
 		"flarum-locale": {
 			"code": "ur",
-			"title": "Urdu"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "اردو",
+			"direction": "rtl"
 		}
 	}
 }
